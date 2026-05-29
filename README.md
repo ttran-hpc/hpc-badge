@@ -34,7 +34,7 @@ the same number for the same *N*.
 |---|---|
 | GCC 13 (`gnu13` module) | C compiler with OpenMP support |
 | OpenMPI | MPI implementation |
-| CUDA Toolkit 13+ | NVIDIA GPU compiler (`nvcc`) |
+| CUDA Toolkit 12.4 | NVIDIA GPU compiler (`nvcc`) |
 
 ---
 
@@ -43,9 +43,9 @@ the same number for the same *N*.
 ### Load modules (HPC cluster)
 
 ```bash
-module load gnu14
+module load gnu13
 module load openmpi5
-module load cuda
+module load cuda/12.4
 ```
 
 ### Serial
