@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc -O2 -std=c11 -o /Users/dal281726/Documents/matmul/serial_matmul /Users/dal281726/Documents/matmul/1_serial_matmul.c)",
+      "Bash(gcc -O2 -std=c11 -fopenmp -o omp_matmul 2_omp_matmul.c)",
+      "Bash(mpicc -O2 -std=c11 -fopenmp -o hybrid_matmul 3_hybrid_matmul.c)",
+      "Bash(brew list *)"
+    ]
+  }
+}
